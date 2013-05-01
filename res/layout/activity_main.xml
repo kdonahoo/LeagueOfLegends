@@ -6,11 +6,83 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/nasus"
     tools:context=".MainActivity" >
-
+    
     <TextView
+        android:id="@+id/testButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:background="@drawable/blue_golem"
+        android:layout_alignParentRight="true"
+        android:text="@string/testString"
+        android:textColor="#f00"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+        
+    <ImageView 
+  		android:id="@+id/lolLogo"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" 
+  		android:layout_alignParentLeft="true" 
+  		android:src="@drawable/lol_logo" />
+    
+    <ImageView 
+  		android:id="@+id/blueBlueBuff"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="30dp"
+  		android:layout_below="@id/lolLogo" 
+  		android:layout_alignParentLeft="true" 
+  		android:src="@drawable/blue_golem" />
+    
+    <ImageView 
+        android:id="@+id/purpleBlueBuff"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="30dp"
+  		android:layout_below="@id/lolLogo" 
+  		android:layout_alignParentRight="true" 
+  		android:src="@drawable/blue_golem" />
+    
+    <ImageView 
+        android:id="@+id/blueRedBuff"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="30dp"
+  		android:layout_alignParentLeft="true"
+  		android:layout_below="@id/blueBlueBuff"
+  		android:src="@drawable/red_lizard" />
+    
+    <ImageView 
+        android:id="@+id/purpleRedBuff"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="30dp"
+  		android:layout_alignParentRight="true" 
+  		android:layout_below="@id/purpleBlueBuff"
+  		android:src="@drawable/red_lizard" />
+    
+    <ImageView 
+        android:id="@+id/dragon"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="30dp"
+  		android:layout_alignParentLeft="true" 
+  		android:layout_below="@id/blueRedBuff"
+  		android:src="@drawable/dragon" />
+    
+    <ImageView 
+        android:id="@+id/baron"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="30dp"
+  		android:layout_alignParentRight="true" 
+  		android:layout_below="@id/purpleRedBuff"
+  		android:src="@drawable/baron" />
+    
+    
 
 </RelativeLayout>
