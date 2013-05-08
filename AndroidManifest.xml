@@ -18,7 +18,7 @@
         
         <activity
             android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:name="com.example.final_proj.donahoo.MainActivity"
+            android:name="com.example.leagueoflegends.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:theme="@android:style/Theme.Light.NoTitleBar" 
+            android:name="com.example.leagueoflegends.JungleActivity"
+            android:label="@string/title_activity_jungle" >
+        </activity>  
+        <activity
+            android:theme="@android:style/Theme.Light.NoTitleBar" 
+            android:name="com.example.leagueoflegends.FreeToPlayActivity"
+            android:label="@string/title_activity_free" >
+        </activity> 
     </application>
 
 </manifest>
